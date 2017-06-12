@@ -1,0 +1,45 @@
+body{
+    font-size: 20px;
+}
+ul,li,div{
+    margin:0;
+    padding:0;
+}
+.ct{
+    border:1px solid #ccc;
+    width:500px;
+}
+ul{
+    list-style: none;
+}
+li{
+    float:left;
+    width:33.3%;
+    height:30px;
+    line-height: 30px;
+    border-right:1px solid #ccc;
+    border-bottom:1px solid #ccc;
+    box-sizing: border-box;
+    padding-left: 10px;
+    cursor: pointer;
+}
+li:last-child{
+    border-right:none;
+}
+li.active{
+    background-color: #eee;;
+}
+ul:after{
+    content: "";
+    display: block;
+    clear:both;
+}
+.panel{
+    display: none;
+    height:150px;
+    padding-top: 10px;
+    padding-left: 10px;
+}
+.panel.active{
+    display: block;
+}
