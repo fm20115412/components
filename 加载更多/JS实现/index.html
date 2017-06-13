@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>加载更多</title>
+    <style>
+        ul,li{
+            margin: 0;
+            padding:0
+        }
+        li{
+            list-style: none;
+            border: 1px solid #ccc;
+            padding: 10px;
+            margin-top: 10px;
+            cursor: pointer;
+        }
+        .btn{
+            border: 1px solid red;
+            height: 40px;
+            line-height: 40px;
+            width: 80px;
+            text-align: center;
+            background: white;
+            text-decoration: none;
+            color: red;
+            display: block;
+            margin:10px auto;
+        }
+        li:hover{
+            background: green;
+            color: #fff;
+        }
+    </style>
+</head>
+<body>
+    <ul id="ct">
+    </ul>
+    <a href="#" id="load-more" class="btn">加载更多</a>
+    <script>
+        var loadBtn=document.getElementById('load-more')
+        var ct=document.getElementById('ct')
+        var lock=false
+        loadBtn.addEventListener('click',function (event) {
+            event.preventDefault()
+            if(lock){
+                return
+            }else{
+                lock=true
+                var request=new XMLHttpRequest()
+                request.open('GET','load',true)
+                request.onreadystatechange=function () {
+                    if(request.readyState === 4 && request.status === 200){
+                        let obj=JSON.parse(request.responseText)
+                        if(obj.status){
+                            append(obj.data)
+                        }
+                        lock=false
+                    }
+                }
+                request.send(null)
+            }
+
+
+        })
+      function append(data){
+            for(var i=0;i<data.length;i++){
+                var li=document.createElement('li')
+                li.innerText="内容"+data[i]
+                ct.appendChild(li)
+            }
+      }
+
+
+    </script>
+</body>
+</html>
