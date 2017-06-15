@@ -8,6 +8,7 @@ ul,li,div{
 .ct{
     border:1px solid #ccc;
     width:500px;
+    margin-top:30px;
 }
 ul{
     list-style: none;

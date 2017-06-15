@@ -6,6 +6,6 @@ $(".ct .item").on("click",function () {
     var $index=$item.index();
     $item.addClass("active");
     $item.siblings().removeClass("active");
-    $(".panel").removeClass("active");
-    $(".panel").eq($index).addClass("active");
+    $item.parent().siblings().removeClass("active");
+    $item.parent().siblings().eq($index).addClass("active");
 })
