@@ -2,15 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1c071670-35bc-413c-b016-c11ba081358c" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Tab切换/滑动效果/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Tab切换/滑动效果/index.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Tab切换/滑动效果/style.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/components.iml" afterPath="$PROJECT_DIR$/.idea/components.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/加载更多/jQuery实现/data.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/加载更多/jQuery实现/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/加载更多/jQuery实现/server.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Tab切换/jQuery实现/index.html" afterPath="$PROJECT_DIR$/Tab切换/jQuery实现/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Tab切换/jQuery实现/index.js" afterPath="$PROJECT_DIR$/Tab切换/jQuery实现/index.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Tab切换/jQuery实现/style.css" afterPath="$PROJECT_DIR$/Tab切换/jQuery实现/style.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Tab切换/滑动效果/index.html" afterPath="$PROJECT_DIR$/Tab切换/滑动效果/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Tab切换/滑动效果/index.js" afterPath="$PROJECT_DIR$/Tab切换/滑动效果/index.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Tab切换/滑动效果/style.css" afterPath="$PROJECT_DIR$/Tab切换/滑动效果/style.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/加载更多/JS实现/index.html" afterPath="$PROJECT_DIR$/加载更多/JS实现/index.html" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -28,31 +27,11 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Tab切换/滑动效果/style.css">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/加载更多/jQuery实现/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="815">
-              <caret line="57" column="1" lean-forward="false" selection-start-line="57" selection-start-column="1" selection-end-line="57" selection-end-column="1" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Tab切换/滑动效果/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="47">
-              <caret line="15" column="20" lean-forward="false" selection-start-line="15" selection-start-column="16" selection-end-line="15" selection-end-column="20" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Tab切换/滑动效果/index.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="288">
-              <caret line="9" column="37" lean-forward="false" selection-start-line="9" selection-start-column="37" selection-end-line="9" selection-end-column="37" />
+            <state relative-caret-position="128">
+              <caret line="52" column="38" lean-forward="false" selection-start-line="52" selection-start-column="38" selection-end-line="52" selection-end-column="38" />
               <folding />
             </state>
           </provider>
@@ -86,13 +65,14 @@
         <option value="$PROJECT_DIR$/加载更多/server.js" />
         <option value="$PROJECT_DIR$/加载更多/data.json" />
         <option value="$PROJECT_DIR$/加载更多/index.html" />
-        <option value="$PROJECT_DIR$/加载更多/JS实现/index.html" />
         <option value="$PROJECT_DIR$/Tab切换/jQuery实现/index.html" />
         <option value="$PROJECT_DIR$/Tab切换/jQuery实现/style.css" />
         <option value="$PROJECT_DIR$/Tab切换/jQuery实现/index.js" />
-        <option value="$PROJECT_DIR$/Tab切换/滑动效果/index.html" />
-        <option value="$PROJECT_DIR$/Tab切换/滑动效果/style.css" />
         <option value="$PROJECT_DIR$/Tab切换/滑动效果/index.js" />
+        <option value="$PROJECT_DIR$/Tab切换/滑动效果/style.css" />
+        <option value="$PROJECT_DIR$/Tab切换/滑动效果/index.html" />
+        <option value="$PROJECT_DIR$/加载更多/JS实现/index.html" />
+        <option value="$PROJECT_DIR$/加载更多/jQuery实现/index.html" />
       </list>
     </option>
   </component>
@@ -133,7 +113,6 @@
     </navigator>
     <panes>
       <pane id="Scratches" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -156,12 +135,67 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="加载更多" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="JS实现" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="components" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="components" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="加载更多" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="jQuery实现" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="components" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="components" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="Tab切换" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="components" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="components" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Tab切换" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="jQuery实现" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -179,14 +213,16 @@
     <property name="javascript.nodejs.core.library.configured.version" value="6.9.2" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="G:\Code\components\Tab切换\滑动效果" />
-      <recent name="G:\Code\components\Tab切换\jQuery实现" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="G:\Code\components\加载更多\jQuery实现" />
       <recent name="G:\Code\components\加载更多\JS实现" />
       <recent name="G:\Code\components" />
       <recent name="G:\Code\components\Tab切换\JS实现" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="G:\Code\components\加载更多\JS实现" />
+      <recent name="G:\Code\components\Tab切换\滑动效果" />
+      <recent name="G:\Code\components\Tab切换\jQuery实现" />
     </key>
   </component>
   <component name="RunManager">
@@ -267,18 +303,20 @@
       <workItem from="1497315579779" duration="1504000" />
       <workItem from="1497338610106" duration="8346000" />
       <workItem from="1497402032884" duration="600000" />
-      <workItem from="1497530866330" duration="3615000" />
+      <workItem from="1497530866330" duration="4209000" />
+      <workItem from="1497582110594" duration="4542000" />
+      <workItem from="1497607276117" duration="1190000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="17656000" />
+    <option name="totallyTimeSpent" value="23982000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20644216" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20644216" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32643312" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -307,7 +345,15 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/加载更多/JS实现/index.html">
+    <entry file="file://$PROJECT_DIR$/Tab切换/滑动效果/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1728">
+          <caret line="54" column="16" lean-forward="false" selection-start-line="54" selection-start-column="16" selection-end-line="54" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Tab切换/滑动效果/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -315,7 +361,39 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/加载更多/JS实现/server.js">
+    <entry file="file://$PROJECT_DIR$/Tab切换/滑动效果/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="320">
+          <caret line="10" column="25" lean-forward="false" selection-start-line="10" selection-start-column="25" selection-end-line="10" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Tab切换/滑动效果/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Tab切换/滑动效果/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="480">
+          <caret line="15" column="20" lean-forward="false" selection-start-line="15" selection-start-column="16" selection-end-line="15" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/加载更多/jQuery实现/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/加载更多/jQuery实现/server.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="672">
           <caret line="23" column="2" lean-forward="false" selection-start-line="23" selection-start-column="2" selection-end-line="23" selection-end-column="2" />
@@ -325,7 +403,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/加载更多/JS实现/data.json">
+    <entry file="file://$PROJECT_DIR$/加载更多/jQuery实现/data.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="32">
           <caret line="1" column="13" lean-forward="false" selection-start-line="1" selection-start-column="13" selection-end-line="1" selection-end-column="13" />
@@ -333,7 +411,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/加载更多/JS实现/index.html">
+    <entry file="file://$PROJECT_DIR$/加载更多/jQuery实现/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -341,7 +419,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/加载更多/JS实现/server.js">
+    <entry file="file://$PROJECT_DIR$/加载更多/jQuery实现/server.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="736">
           <caret line="23" column="2" lean-forward="true" selection-start-line="23" selection-start-column="2" selection-end-line="23" selection-end-column="2" />
@@ -351,7 +429,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/加载更多/JS实现/data.json">
+    <entry file="file://$PROJECT_DIR$/加载更多/jQuery实现/data.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="32">
           <caret line="1" column="13" lean-forward="false" selection-start-line="1" selection-start-column="13" selection-end-line="1" selection-end-column="13" />
@@ -359,7 +437,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/加载更多/JS实现/index.html">
+    <entry file="file://$PROJECT_DIR$/加载更多/jQuery实现/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1216">
           <caret line="38" column="20" lean-forward="true" selection-start-line="38" selection-start-column="20" selection-end-line="38" selection-end-column="20" />
@@ -367,7 +445,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/加载更多/JS实现/server.js">
+    <entry file="file://$PROJECT_DIR$/加载更多/jQuery实现/server.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -442,45 +520,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/加载更多/JS实现/server.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="672">
-          <caret line="23" column="2" lean-forward="false" selection-start-line="23" selection-start-column="2" selection-end-line="23" selection-end-column="2" />
-          <folding>
-            <element signature="e#0#47#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/加载更多/JS实现/data.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="32">
-          <caret line="1" column="13" lean-forward="false" selection-start-line="1" selection-start-column="13" selection-end-line="1" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/加载更多/JS实现/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="32">
-          <caret line="62" column="0" lean-forward="false" selection-start-line="62" selection-start-column="0" selection-end-line="62" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Tab切换/jQuery实现/style.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="224">
           <caret line="10" column="20" lean-forward="false" selection-start-line="10" selection-start-column="20" selection-end-line="10" selection-end-column="20" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Tab切换/jQuery实现/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="335">
-          <caret line="18" column="10" lean-forward="true" selection-start-line="18" selection-start-column="10" selection-end-line="18" selection-end-column="10" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -488,30 +531,79 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="256">
           <caret line="8" column="29" lean-forward="false" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="29" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Tab切换/滑动效果/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="815">
-          <caret line="57" column="1" lean-forward="false" selection-start-line="57" selection-start-column="1" selection-end-line="57" selection-end-column="1" />
+        <state relative-caret-position="1728">
+          <caret line="54" column="16" lean-forward="false" selection-start-line="54" selection-start-column="16" selection-end-line="54" selection-end-column="16" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Tab切换/滑动效果/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="47">
-          <caret line="15" column="20" lean-forward="false" selection-start-line="15" selection-start-column="16" selection-end-line="15" selection-end-column="20" />
+        <state relative-caret-position="274">
+          <caret line="22" column="6" lean-forward="false" selection-start-line="22" selection-start-column="6" selection-end-line="22" selection-end-column="6" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Tab切换/滑动效果/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="9" column="37" lean-forward="false" selection-start-line="9" selection-start-column="37" selection-end-line="9" selection-end-column="37" />
+        <state relative-caret-position="311">
+          <caret line="10" column="25" lean-forward="false" selection-start-line="10" selection-start-column="25" selection-end-line="10" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/加载更多/jQuery实现/data.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="96">
+          <caret line="3" column="1" lean-forward="true" selection-start-line="3" selection-start-column="1" selection-end-line="3" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Tab切换/jQuery实现/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/加载更多/JS实现/server.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/加载更多/jQuery实现/server.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-43">
+          <caret line="8" column="31" lean-forward="true" selection-start-line="8" selection-start-column="31" selection-end-line="8" selection-end-column="33" />
+          <folding>
+            <element signature="e#0#47#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/加载更多/JS实现/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="640">
+          <caret line="68" column="34" lean-forward="false" selection-start-line="57" selection-start-column="16" selection-end-line="68" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/加载更多/jQuery实现/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="128">
+          <caret line="52" column="38" lean-forward="false" selection-start-line="52" selection-start-column="38" selection-end-line="52" selection-end-column="38" />
           <folding />
         </state>
       </provider>

@@ -41,11 +41,18 @@
 }
 .mod-tab .panels {
     position: absolute;
-    width: 100%;
+    width: 300%;
+}
+.clearfix:after{
+    display: block;
+    content: '';
+    clear:both;
 }
 .mod-tab .panels>li {
     height: 180px;
     padding: 20px;
+    float:left;
+    width: 33.33%;
 }
 .mod-tab .panels>li:nth-child(1) {
     background-color: red;
